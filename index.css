@@ -89,17 +89,22 @@ p{
 /*.....Formulário.....*/
 #area{
 
-    position: relative;
+    position:fixed;
     left:37%;
     top:29%;
     width:320px;
     height:270px;
+    flex-wrap: wrap;
+    display: flex;
+    
+    
 }
 
 #area #formulario{
 
     position:absolute;
     display:block;
+
 }
 
 fieldset {
