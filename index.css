@@ -6,6 +6,7 @@ body,ul,li,p{
     list-style:none;
     font: size 1.2rem;
     font-family:Arial;
+    flex-wrap: wrap;
 }
 
 a{
@@ -16,10 +17,9 @@ a{
 .header{
     background-color: rgb(17, 16, 15);
     display:flex;
-    flex-wrap:wrap;
     justify-content:space-between;
     align-items:center;
-    padding:20px;
+    padding:10px;
 }
 .menu{
     display: flex;
@@ -27,10 +27,10 @@ a{
 }
 .menu li{
     color: rgb(212, 207, 198);
-    margin-left: 10px;
+    margin-left:10px;
     display: block;
     flex-wrap: wrap;
-    padding: 10px;
+    padding:10px;
 
     
 
